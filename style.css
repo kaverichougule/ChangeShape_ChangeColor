@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    padding: 5px;
+}
+#circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.inner-shape{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    position: relative;
+    left: 38px;
+    top: 38px;
+}
+.triangle{
+    position: relative;
+    left: 38px;
+    top: 38px;
+    width: 0;
+    height: 0;  
+    border-bottom: 75px solid white;
+    border-right: 75px solid transparent;
+}
+.inner-circle{
+    position: relative;
+    left: 38px;
+    top: 38px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: white;
+}
