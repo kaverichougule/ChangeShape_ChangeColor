@@ -28,6 +28,7 @@ button{
     height: 500px;
     border-radius: 50%;
     background: rgb(99, 65, 200);
+    box-shadow: 0 0 40px black;
 
 }
 #circle2 {
@@ -37,7 +38,9 @@ button{
     background: purple;
     position: relative;
     top: 100px;
-    left: 100px
+    left: 100px;
+    box-shadow: 0 0 40px black;
+
 }
 .inner-shape{
     width: 150px;
@@ -46,6 +49,8 @@ button{
     position: relative;
     left: 75px;
     top: 75px;
+    box-shadow: 0 0 40px black;
+
 }
 .triangle{
     position: relative;
@@ -56,6 +61,7 @@ button{
     border-bottom: 150px solid white;
     border-right: 100px solid transparent;
     border-left: 100px solid transparent;
+
 }
 .inner-circle{
     position: relative;
