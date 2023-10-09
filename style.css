@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 #container{
     display: flex;
@@ -15,37 +16,81 @@
     margin-top: 20px;
 }
 button{
-    padding: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: #7d2ae8;
+    border-radius: 8px;
 }
-#circle {
-    width: 150px;
-    height: 150px;
+#circle1{
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
-    background-color: purple;
+    background: rgb(99, 65, 200);
+
+}
+#circle2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: purple;
+    position: relative;
+    top: 100px;
+    left: 100px
 }
 .inner-shape{
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     position: relative;
-    left: 38px;
-    top: 38px;
+    left: 75px;
+    top: 75px;
 }
 .triangle{
     position: relative;
-    left: 38px;
-    top: 38px;
+    left: 51px;
+    top: 75px;
     width: 0;
     height: 0;  
-    border-bottom: 75px solid white;
-    border-right: 75px solid transparent;
+    border-bottom: 150px solid white;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
 }
 .inner-circle{
     position: relative;
-    left: 38px;
-    top: 38px;
-    width: 75px;
-    height: 75px;
+    left: 75px;
+    top: 75px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: white;
+}
+.rectangle{
+    position: relative;
+    left: 75px;
+    top: 100px;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+}
+.diamond-square{
+    position: relative;
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-bottom-color: white;
+    top: -50px;
+    left: 50px;
+}
+.diamond-square::after{
+    content: '';
+    position: absolute;
+    left: -100px;
+    top: 100px;
+    border: 100px solid transparent;
+    border-top-color: white;
+}
+.insidebtn{
+    display: flex;
 }
