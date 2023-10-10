@@ -123,4 +123,5 @@ button{
 }
 .insidebtn{
     display: flex;
+    gap: 10px;
 }
